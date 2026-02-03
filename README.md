@@ -43,10 +43,20 @@ An intelligent desktop application for batch processing image crops using AI (YO
 ai-smart-crop/
 ├── gui_app.py          # Main GUI application entry point
 ├── crop_logic.py       # Core AI processing logic (YOLOv8 wrapper)
-├── models_list.json    # Configuration file for model selection
 ├── models/             # Directory for storing .pt model files
 │   ├── yolov8n.pt
 │   └── yolov8n-face.pt
-└── lists/              # JSON lists defining class IDs for each model
-    ├── coco_80.json
-    └── face_only.json
+└── config/            
+    ├── models_list.json # Configuration file for model selection 
+    └── detect_lists/    #JSON lists defining class IDs for each model
+        ├── coco_80.json
+        └── face_only.json
+
+🚀 Usage
+
+1.Run the application: run.bat
+2.Drag & Drop images into the left panel.
+3.Select your desired AI Model and Detect Target (e.g., Person).
+4.Adjust Aspect Ratio and Padding sliders.
+5.Select an Output Folder.
+6.Click Start Process.
