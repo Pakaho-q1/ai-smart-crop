@@ -1,0 +1,17 @@
+# ละเว้นโฟลเดอร์ Environment
+env/
+venv/
+.venv/
+
+# ละเว้นไฟล์ขยะของ Python
+__pycache__/
+*.pyc
+
+# ละเว้นโฟลเดอร์รูปผลลัพธ์ (ไม่ต้องเอาขึ้น)
+output/
+input/
+# ละเว้นไฟล์ setting ของ VS Code
+.vscode/
+
+# ละเว้นไฟล์ config ส่วนตัว (ถ้ามี)
+settings.ini

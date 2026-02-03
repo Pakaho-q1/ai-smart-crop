@@ -1,0 +1,6 @@
+# Core
+ultralytics
+numpy
+opencv-python
+# GUI
+PyQt6

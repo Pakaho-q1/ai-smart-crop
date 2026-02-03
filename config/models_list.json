@@ -1,0 +1,12 @@
+[
+    {
+        "name": "General(yolov8n)",
+        "path": "models/yolov8n.pt",
+        "detect_list": "config/detect_lists/yolov8n_detect.json"
+    },
+    {
+        "name": "Face Detection(yolov11n-face)",
+        "path": "models/yolov11n-face.pt",
+        "detect_list": "config/detect_lists/yolov11n-face_detect.json"
+    }
+]
